@@ -1,0 +1,1016 @@
+absl-py==0.13.0
+    # via
+    #   tensorboard
+    #   tensorflow
+affine==2.3.0
+    # via
+    #   rasterio
+    #   rasterstats
+aiohttp-cors==0.7.0
+    # via ray
+aiohttp==3.7.4.post0
+    # via
+    #   aiohttp-cors
+    #   gcsfs
+    #   ray
+aioredis==1.3.1
+    # via ray
+airtable-python-wrapper==0.15.2
+    # via -r requirements.in
+alembic==1.6.5
+    # via optuna
+amqp==2.6.1
+    # via kombu
+argon2-cffi==20.1.0
+    # via notebook
+asn1crypto==1.4.0
+    # via scramp
+astunparse==1.6.3
+    # via tensorflow
+async-generator==1.10
+    # via nbclient
+async-timeout==3.0.1
+    # via
+    #   aiohttp
+    #   aioredis
+attrs==21.2.0
+    # via
+    #   aiohttp
+    #   cmd2
+    #   ddtrace
+    #   fiona
+    #   jsonschema
+    #   pytest
+    #   rasterio
+awswrangler==2.9.0
+    # via -r requirements.in
+backcall==0.2.0
+    # via ipython
+beautifulsoup4==4.9.3
+    # via
+    #   bs4
+    #   libpysal
+    #   redshift-connector
+billiard==3.6.4.0
+    # via celery
+bleach==3.3.0
+    # via nbconvert
+blessings==1.7
+    # via gpustat
+blis==0.7.4
+    # via
+    #   spacy
+    #   thinc
+boto3==1.17.110
+    # via
+    #   awswrangler
+    #   pyathena
+    #   redshift-connector
+    #   smart-open
+botocore==1.20.110
+    # via
+    #   awswrangler
+    #   boto3
+    #   pyathena
+    #   redshift-connector
+    #   s3fs
+    #   s3transfer
+bs4==0.0.1
+    # via -r requirements.in
+cachetools==4.2.2
+    # via google-auth
+cairocffi==1.2.0
+    # via
+    #   cairosvg
+    #   weasyprint
+cairosvg==2.5.2
+    # via weasyprint
+camelot-py[cv]==0.8.2
+    # via -r requirements.in
+catalogue==1.0.0
+    # via
+    #   spacy
+    #   thinc
+cchardet==2.1.7
+    # via partridge
+celery==4.4.7
+    # via -r requirements.in
+census==0.8.18
+    # via
+    #   -r requirements.in
+    #   synthpop
+certifi==2021.5.30
+    # via
+    #   fiona
+    #   requests
+cffi==1.14.6
+    # via
+    #   argon2-cffi
+    #   cairocffi
+    #   cryptography
+    #   google-crc32c
+    #   weasyprint
+chardet==3.0.4
+    # via
+    #   aiohttp
+    #   camelot-py
+    #   pdfminer.six
+    #   requests
+click-plugins==1.1.1
+    # via
+    #   fiona
+    #   rasterio
+click==7.1.2
+    # via
+    #   camelot-py
+    #   click-plugins
+    #   cligj
+    #   fiona
+    #   rasterio
+    #   ray
+cliff==3.8.0
+    # via optuna
+cligj==0.7.2
+    # via
+    #   fiona
+    #   rasterio
+    #   rasterstats
+cmaes==0.8.2
+    # via optuna
+cmd2==2.1.2
+    # via cliff
+colorama==0.4.4
+    # via
+    #   cmd2
+    #   ray
+colorful==0.5.4
+    # via ray
+colorlog==5.0.1
+    # via optuna
+contextlib2==21.6.0
+    # via schema
+cryptography==3.4.7
+    # via pdfminer.six
+cssselect2==0.4.1
+    # via
+    #   cairosvg
+    #   weasyprint
+cycler==0.10.0
+    # via matplotlib
+cymem==2.0.5
+    # via
+    #   preshed
+    #   spacy
+    #   thinc
+cython==0.29.23
+    # via pandana
+ddtrace==0.56.1
+    # via -r requirements.in
+debugpy==1.3.0
+    # via ipykernel
+decorator==4.4.2
+    # via
+    #   gcsfs
+    #   gspread-pandas
+    #   ipython
+defusedxml==0.7.1
+    # via
+    #   cairosvg
+    #   nbconvert
+deprecated==1.2.12
+    # via pygithub
+descartes==1.1.0
+    # via osmnx
+entrypoints==0.3
+    # via nbconvert
+esridump==1.10.1
+    # via -r requirements.in
+et-xmlfile==1.1.0
+    # via openpyxl
+fastai==2.3.0
+    # via -r requirements.in
+fastcore==1.3.25
+    # via fastai
+fastprogress==1.0.0
+    # via fastai
+filelock==3.0.12
+    # via ray
+fiona==1.8.20
+    # via
+    #   -r requirements.in
+    #   geopandas
+    #   peartree
+    #   rasterstats
+fonttools==4.28.5
+    # via matplotlib
+fsspec==2021.6.1
+    # via
+    #   gcsfs
+    #   s3fs
+future==0.18.2
+    # via s2sphere
+gast==0.3.3
+    # via tensorflow
+gcsfs==0.8.0
+    # via -r requirements.in
+geographiclib==1.52
+    # via geopy
+geojson==2.5.0
+    # via -r requirements.in
+geopandas==0.8.1
+    # via
+    #   -r requirements.in
+    #   keplergl
+    #   osmnet
+    #   osmnx
+    #   peartree
+geopy==2.2.0
+    # via -r requirements.in
+google-api-core[grpc]==1.31.0
+    # via
+    #   google-api-python-client
+    #   google-cloud-aiplatform
+    #   google-cloud-bigquery
+    #   google-cloud-bigquery-storage
+    #   google-cloud-core
+    #   google-cloud-datacatalog
+    #   opencensus
+google-api-python-client==1.12.8
+    # via -r requirements.in
+google-auth-httplib2==0.1.0
+    # via google-api-python-client
+google-auth-oauthlib==0.4.4
+    # via
+    #   gcsfs
+    #   gspread
+    #   gspread-pandas
+    #   tensorboard
+google-auth==1.32.1
+    # via
+    #   gcsfs
+    #   google-api-core
+    #   google-api-python-client
+    #   google-auth-httplib2
+    #   google-auth-oauthlib
+    #   google-cloud-core
+    #   google-cloud-storage
+    #   gspread
+    #   gspread-pandas
+    #   tensorboard
+google-cloud-aiplatform==1.3.0
+    # via -r requirements.in
+google-cloud-bigquery-storage==2.7.0
+    # via -r requirements.in
+google-cloud-bigquery==2.23.3
+    # via
+    #   -r requirements.in
+    #   google-cloud-aiplatform
+google-cloud-core==1.7.1
+    # via
+    #   google-cloud-bigquery
+    #   google-cloud-storage
+google-cloud-datacatalog==3.6.1
+    # via -r requirements.in
+google-cloud-storage==1.41.1
+    # via
+    #   -r requirements.in
+    #   google-cloud-aiplatform
+    #   smart-open
+google-crc32c==1.1.2
+    # via google-resumable-media
+google-pasta==0.2.0
+    # via tensorflow
+google-resumable-media==1.3.1
+    # via
+    #   google-cloud-bigquery
+    #   google-cloud-storage
+googleapis-common-protos[grpc]==1.53.0
+    # via
+    #   google-api-core
+    #   grpc-google-iam-v1
+gpustat==0.6.0
+    # via ray
+grpc-google-iam-v1==0.12.3
+    # via google-cloud-datacatalog
+grpcio==1.38.1
+    # via
+    #   google-api-core
+    #   google-cloud-bigquery
+    #   googleapis-common-protos
+    #   grpc-google-iam-v1
+    #   ray
+    #   tensorboard
+    #   tensorflow
+gspread-pandas==2.3.0
+    # via -r requirements.in
+gspread==3.7.0
+    # via gspread-pandas
+h5py==2.10.0
+    # via tensorflow
+hiredis==2.0.0
+    # via aioredis
+html5lib==1.1
+    # via weasyprint
+httplib2==0.19.1
+    # via
+    #   google-api-python-client
+    #   google-auth-httplib2
+idna==2.10
+    # via
+    #   requests
+    #   yarl
+ijson==3.1.4
+    # via -r requirements.in
+iniconfig==1.1.1
+    # via pytest
+ipykernel==6.0.1
+    # via
+    #   ipywidgets
+    #   notebook
+ipython-genutils==0.2.0
+    # via
+    #   nbformat
+    #   notebook
+    #   traitlets
+ipython==7.25.0
+    # via
+    #   ipykernel
+    #   ipywidgets
+ipywidgets==7.6.3
+    # via keplergl
+isoweek==1.3.3
+    # via partridge
+jedi==0.18.0
+    # via ipython
+jellyfish==0.6.1
+    # via us
+jinja2==2.11.3
+    # via
+    #   -r requirements.in
+    #   libpysal
+    #   nbconvert
+    #   notebook
+jmespath==0.10.0
+    # via
+    #   boto3
+    #   botocore
+joblib==1.0.1
+    # via
+    #   -r requirements.in
+    #   scikit-learn
+jsonschema==3.2.0
+    # via
+    #   nbformat
+    #   ray
+jupyter-client==6.1.12
+    # via
+    #   ipykernel
+    #   nbclient
+    #   notebook
+jupyter-core==4.7.1
+    # via
+    #   jupyter-client
+    #   nbconvert
+    #   nbformat
+    #   notebook
+jupyterlab-pygments==0.1.2
+    # via nbconvert
+jupyterlab-widgets==1.0.0
+    # via ipywidgets
+keplergl==0.3.2
+    # via -r requirements.in
+keras-preprocessing==1.1.2
+    # via tensorflow
+kiwisolver==1.3.1
+    # via matplotlib
+kombu==4.6.11
+    # via celery
+libcst==0.3.19
+    # via
+    #   google-cloud-bigquery-storage
+    #   google-cloud-datacatalog
+libpysal==4.5.1
+    # via -r requirements.in
+lxml==4.6.5
+    # via redshift-connector
+mako==1.1.4
+    # via alembic
+mapclassify==2.4.3
+    # via -r requirements.in
+markdown==3.3.4
+    # via tensorboard
+markupsafe==2.0.1
+    # via
+    #   jinja2
+    #   mako
+matplotlib-inline==0.1.2
+    # via ipython
+matplotlib==3.5.1
+    # via
+    #   descartes
+    #   fastai
+    #   osmnx
+    #   pandana
+memory-profiler==0.58.0
+    # via -r requirements.in
+mistune==0.8.4
+    # via nbconvert
+msgpack==1.0.2
+    # via ray
+multidict==5.1.0
+    # via
+    #   aiohttp
+    #   yarl
+munch==2.5.0
+    # via fiona
+murmurhash==1.0.5
+    # via
+    #   preshed
+    #   spacy
+    #   thinc
+mypy-extensions==0.4.3
+    # via typing-inspect
+nbclient==0.5.3
+    # via nbconvert
+nbconvert==6.1.0
+    # via notebook
+nbformat==5.1.3
+    # via
+    #   ipywidgets
+    #   nbclient
+    #   nbconvert
+    #   notebook
+nest-asyncio==1.5.1
+    # via nbclient
+networkx==2.6.2
+    # via
+    #   -r requirements.in
+    #   mapclassify
+    #   osmnx
+    #   partridge
+    #   peartree
+notebook==6.4.0
+    # via widgetsnbextension
+numexpr==2.7.3
+    # via
+    #   synthpop
+    #   tables
+numpy==1.20.1
+    # via
+    #   -r requirements.in
+    #   awswrangler
+    #   blis
+    #   camelot-py
+    #   cmaes
+    #   fastprogress
+    #   h5py
+    #   keras-preprocessing
+    #   libpysal
+    #   mapclassify
+    #   matplotlib
+    #   numexpr
+    #   opencv-python
+    #   opt-einsum
+    #   optuna
+    #   osmnet
+    #   osmnx
+    #   pandana
+    #   pandas
+    #   patsy
+    #   peartree
+    #   pyarrow
+    #   rasterio
+    #   rasterstats
+    #   ray
+    #   scikit-learn
+    #   scipy
+    #   snuggs
+    #   spacy
+    #   statsmodels
+    #   synthpop
+    #   tables
+    #   tensorboard
+    #   tensorboardx
+    #   tensorflow
+    #   thinc
+    #   torch
+    #   torchvision
+    #   tune-sklearn
+    #   xarray
+nvidia-ml-py3==7.352.0
+    # via gpustat
+oauthlib==3.1.1
+    # via requests-oauthlib
+opencensus-context==0.1.2
+    # via opencensus
+opencensus==0.7.13
+    # via ray
+opencv-python==4.5.3.56
+    # via camelot-py
+openpyxl==3.0.7
+    # via
+    #   -r requirements.in
+    #   awswrangler
+    #   camelot-py
+opt-einsum==3.3.0
+    # via tensorflow
+optuna==2.7.0
+    # via -r requirements.in
+orjson==3.6.5
+    # via -r requirements.in
+osm2geojson==0.1.28
+    # via -r requirements.in
+osmnet==0.1.6
+    # via pandana
+osmnx==0.15.1
+    # via -r requirements.in
+packaging==21.0
+    # via
+    #   bleach
+    #   ddtrace
+    #   fastai
+    #   fastcore
+    #   google-api-core
+    #   google-cloud-aiplatform
+    #   google-cloud-bigquery
+    #   google-cloud-bigquery-storage
+    #   matplotlib
+    #   optuna
+    #   pytest
+    #   rioxarray
+pandas==1.2.2
+    # via
+    #   -r requirements.in
+    #   awswrangler
+    #   camelot-py
+    #   fastai
+    #   geopandas
+    #   gspread-pandas
+    #   keplergl
+    #   libpysal
+    #   mapclassify
+    #   osmnet
+    #   osmnx
+    #   pandana
+    #   partridge
+    #   peartree
+    #   ray
+    #   statsmodels
+    #   synthpop
+    #   xarray
+pandocfilters==1.4.3
+    # via nbconvert
+parso==0.8.2
+    # via jedi
+partridge==1.1.1
+    # via
+    #   -r requirements.in
+    #   peartree
+patsy==0.5.1
+    # via statsmodels
+pbr==5.6.0
+    # via
+    #   cliff
+    #   stevedore
+pdfminer.six==20201018
+    # via camelot-py
+peartree==0.6.4
+    # via -r requirements.in
+pendulum==2.1.2
+    # via -r requirements.in
+pexpect==4.8.0
+    # via ipython
+pg8000==1.19.5
+    # via awswrangler
+pickleshare==0.7.5
+    # via ipython
+pillow==8.3.2
+    # via
+    #   cairosvg
+    #   fastai
+    #   matplotlib
+    #   torchvision
+plac==1.1.3
+    # via
+    #   spacy
+    #   thinc
+pluggy==0.13.1
+    # via pytest
+preshed==3.0.5
+    # via
+    #   spacy
+    #   thinc
+prettytable==2.1.0
+    # via cliff
+prometheus-client==0.11.0
+    # via
+    #   notebook
+    #   ray
+prompt-toolkit==3.0.19
+    # via ipython
+proto-plus==1.19.0
+    # via
+    #   google-cloud-aiplatform
+    #   google-cloud-bigquery
+    #   google-cloud-bigquery-storage
+    #   google-cloud-datacatalog
+protobuf==3.17.3
+    # via
+    #   ddtrace
+    #   google-api-core
+    #   google-cloud-bigquery
+    #   googleapis-common-protos
+    #   proto-plus
+    #   ray
+    #   tensorboard
+    #   tensorboardx
+    #   tensorflow
+psutil==5.8.0
+    # via
+    #   gpustat
+    #   memory-profiler
+ptyprocess==0.7.0
+    # via
+    #   pexpect
+    #   terminado
+py-spy==0.3.7
+    # via ray
+py==1.10.0
+    # via pytest
+pyarrow==4.0.1
+    # via
+    #   -r requirements.in
+    #   awswrangler
+pyasn1-modules==0.2.8
+    # via google-auth
+pyasn1==0.4.8
+    # via
+    #   pyasn1-modules
+    #   rsa
+pyathena==2.3.0
+    # via -r requirements.in
+pycparser==2.20
+    # via cffi
+pydantic==1.8.2
+    # via -r requirements.in
+pyfarmhash==0.2.2
+    # via -r requirements.in
+pygithub==1.53
+    # via -r requirements.in
+pygments==2.9.0
+    # via
+    #   ipython
+    #   jupyterlab-pygments
+    #   nbconvert
+pyjwt==2.1.0
+    # via pygithub
+pymysql==1.0.2
+    # via awswrangler
+pyparsing==2.4.7
+    # via
+    #   cliff
+    #   httplib2
+    #   matplotlib
+    #   packaging
+    #   snuggs
+pypdf2==1.26.0
+    # via camelot-py
+pyperclip==1.8.2
+    # via cmd2
+pyphen==0.11.0
+    # via weasyprint
+pyproj==2.6.1.post1
+    # via
+    #   -r requirements.in
+    #   geopandas
+    #   osmnx
+    #   rioxarray
+pyrsistent==0.18.0
+    # via jsonschema
+pytess==1.0.0
+    # via -r requirements.in
+pytest==6.2.5
+    # via -r requirements.in
+python-dateutil==2.8.1
+    # via
+    #   alembic
+    #   botocore
+    #   jupyter-client
+    #   matplotlib
+    #   pandas
+    #   pendulum
+python-editor==1.0.4
+    # via alembic
+python-json-logger==2.0.2
+    # via -r requirements.in
+python-slugify==4.0.1
+    # via -r requirements.in
+pytz==2021.1
+    # via
+    #   celery
+    #   google-api-core
+    #   pandas
+    #   redshift-connector
+pytzdata==2020.1
+    # via pendulum
+pyyaml==5.4.1
+    # via
+    #   -r requirements.in
+    #   cliff
+    #   fastai
+    #   libcst
+    #   ray
+    #   yamlloader
+pyzmq==22.1.0
+    # via
+    #   jupyter-client
+    #   notebook
+rasterio==1.1.8
+    # via
+    #   -r requirements.in
+    #   rasterstats
+    #   rioxarray
+rasterstats==0.15.0
+    # via -r requirements.in
+ray[tune]==1.2.0
+    # via
+    #   -r requirements.in
+    #   tune-sklearn
+redis==3.5.3
+    # via
+    #   -r requirements.in
+    #   ray
+redshift-connector==2.0.882
+    # via awswrangler
+requests-oauthlib==1.3.0
+    # via google-auth-oauthlib
+requests==2.23.0
+    # via
+    #   -r requirements.in
+    #   airtable-python-wrapper
+    #   census
+    #   esridump
+    #   fastai
+    #   gcsfs
+    #   google-api-core
+    #   google-cloud-bigquery
+    #   google-cloud-storage
+    #   libpysal
+    #   osm2geojson
+    #   osmnet
+    #   osmnx
+    #   pandana
+    #   pygithub
+    #   ray
+    #   redshift-connector
+    #   requests-oauthlib
+    #   smart-open
+    #   spacy
+    #   tensorboard
+rioxarray==0.9.0
+    # via -r requirements.in
+rsa==4.7.2
+    # via google-auth
+rtree==0.9.7
+    # via
+    #   -r requirements.in
+    #   osmnx
+s2sphere==0.2.5
+    # via -r requirements.in
+s3fs==0.4.2
+    # via -r requirements.in
+s3transfer==0.4.2
+    # via boto3
+schema==0.7.2
+    # via -r requirements.in
+scikit-learn==0.24.2
+    # via
+    #   -r requirements.in
+    #   fastai
+    #   mapclassify
+    #   pandana
+    #   tune-sklearn
+scipy==1.4.1
+    # via
+    #   fastai
+    #   libpysal
+    #   mapclassify
+    #   optuna
+    #   scikit-learn
+    #   statsmodels
+    #   synthpop
+    #   tensorflow
+    #   tune-sklearn
+scramp==1.4.0
+    # via
+    #   pg8000
+    #   redshift-connector
+selenium==3.141.0
+    # via -r requirements.in
+send2trash==1.7.1
+    # via notebook
+shapely==1.7.1
+    # via
+    #   -r requirements.in
+    #   geopandas
+    #   keplergl
+    #   osm2geojson
+    #   osmnet
+    #   osmnx
+    #   rasterstats
+simplejson==3.17.3
+    # via rasterstats
+six==1.16.0
+    # via
+    #   absl-py
+    #   argon2-cffi
+    #   astunparse
+    #   bleach
+    #   blessings
+    #   cycler
+    #   ddtrace
+    #   esridump
+    #   fiona
+    #   google-api-core
+    #   google-api-python-client
+    #   google-auth
+    #   google-auth-httplib2
+    #   google-cloud-core
+    #   google-pasta
+    #   google-resumable-media
+    #   gpustat
+    #   grpcio
+    #   gspread-pandas
+    #   h5py
+    #   html5lib
+    #   jsonschema
+    #   keras-preprocessing
+    #   munch
+    #   patsy
+    #   protobuf
+    #   python-dateutil
+    #   tensorboard
+    #   tensorflow
+smart-open[gcp,s3]==3.0.0
+    # via -r requirements.in
+snuggs==1.4.7
+    # via rasterio
+sortedcontainers==2.4.0
+    # via pdfminer.six
+soupsieve==2.2.1
+    # via beautifulsoup4
+spacy==2.3.7
+    # via fastai
+sqlalchemy==1.3.23
+    # via
+    #   -r requirements.in
+    #   alembic
+    #   optuna
+srsly==1.0.5
+    # via
+    #   spacy
+    #   thinc
+statsmodels==0.12.1
+    # via -r requirements.in
+stevedore==3.3.0
+    # via cliff
+tables==3.6.1
+    # via pandana
+tabulate==0.8.9
+    # via ray
+tenacity==8.0.1
+    # via
+    #   ddtrace
+    #   pyathena
+tensorboard-plugin-wit==1.8.0
+    # via tensorboard
+tensorboard==2.2.2
+    # via tensorflow
+tensorboardx==2.4
+    # via ray
+tensorflow-estimator==2.2.0
+    # via tensorflow
+tensorflow==2.2.0
+    # via -r requirements.in
+termcolor==1.1.0
+    # via tensorflow
+terminado==0.10.1
+    # via notebook
+testpath==0.5.0
+    # via nbconvert
+text-unidecode==1.3
+    # via python-slugify
+thinc==7.4.5
+    # via spacy
+threadpoolctl==2.2.0
+    # via scikit-learn
+tinycss2==1.1.0
+    # via
+    #   cairosvg
+    #   cssselect2
+    #   weasyprint
+toml==0.10.2
+    # via pytest
+torch==1.7.1
+    # via
+    #   fastai
+    #   torchvision
+torchvision==0.8.2
+    # via fastai
+tornado==6.1
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   notebook
+    #   terminado
+tqdm==4.62.3
+    # via
+    #   -r requirements.in
+    #   optuna
+    #   spacy
+    #   thinc
+traitlets==5.0.5
+    # via
+    #   ipykernel
+    #   ipython
+    #   ipywidgets
+    #   jupyter-client
+    #   jupyter-core
+    #   matplotlib-inline
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+    #   notebook
+    #   traittypes
+traittypes==0.2.1
+    # via keplergl
+tune-sklearn==0.2.1
+    # via -r requirements.in
+typing-extensions==3.10.0.0
+    # via
+    #   aiohttp
+    #   libcst
+    #   pydantic
+    #   torch
+    #   typing-inspect
+typing-inspect==0.7.1
+    # via libcst
+ujson==4.2.0
+    # via gcsfs
+uritemplate==3.0.1
+    # via google-api-python-client
+urllib3==1.25.11
+    # via
+    #   botocore
+    #   requests
+    #   selenium
+us==2.0.2
+    # via
+    #   -r requirements.in
+    #   synthpop
+utm==0.7.0
+    # via -r requirements.in
+vine==1.3.0
+    # via
+    #   amqp
+    #   celery
+wasabi==0.8.2
+    # via
+    #   spacy
+    #   thinc
+wcwidth==0.2.5
+    # via
+    #   cmd2
+    #   prettytable
+    #   prompt-toolkit
+weasyprint==51
+    # via -r requirements.in
+webencodings==0.5.1
+    # via
+    #   bleach
+    #   cssselect2
+    #   html5lib
+    #   tinycss2
+werkzeug==2.0.1
+    # via tensorboard
+wheel==0.36.2
+    # via
+    #   astunparse
+    #   tensorboard
+    #   tensorflow
+widgetsnbextension==3.5.1
+    # via ipywidgets
+wrapt==1.12.1
+    # via
+    #   deprecated
+    #   tensorflow
+xarray==0.20.1
+    # via
+    #   -r requirements.in
+    #   rioxarray
+xlrd==2.0.1
+    # via -r requirements.in
+yamlloader==1.1.0
+    # via -r requirements.in
+yarl==1.6.3
+    # via aiohttp
