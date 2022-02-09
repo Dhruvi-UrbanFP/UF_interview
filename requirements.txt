@@ -1,9 +1,9 @@
 descartes==1.1.0
-fiona>=1.8.20
+fiona==1.8.20
 fonttools==4.28.5
 geographiclib==1.52
 geojson==2.5.0
-geopandas>=0.10.2
+geopandas==0.8.1
 geopy==2.2.0
 gspread-pandas==2.3.0
 gspread==3.7.0
